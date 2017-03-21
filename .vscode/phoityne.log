@@ -1,0 +1,40 @@
+2017-03-21 01:05:21 [ThreadId 18] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework2/LogAnalysis.hs] file load error. '/home/gabluc/Repos/CIS194/src/Homework2/LogAnalysis.hs'
+2017-03-21 01:05:28 [ThreadId 19] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework2/LogAnalysis.hs] file load error. '/home/gabluc/Repos/CIS194/src/Homework2/LogAnalysis.hs'
+2017-03-21 01:40:49 [ThreadId 23] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework5/ExprT.hs] <file descriptor: 77>: hGetChar: end of file
+2017-03-21 01:40:49 [ThreadId 24] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework5/Parser.hs] <file descriptor: 77>: hGetChar: end of file
+2017-03-21 01:40:49 [ThreadId 22] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework5/Calc.hs] <file descriptor: 77>: hGetChar: end of file
+2017-03-21 01:40:49 [ThreadId 52] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/Scrabble.hs] <file descriptor: 77>: hGetLine: end of file
+2017-03-21 01:40:49 [ThreadId 27] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/test/Spec.hs] <file descriptor: 77>: hGetChar: end of file
+2017-03-21 01:40:49 [ThreadId 20] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework5/Parser.hs] <file descriptor: 77>: hGetChar: end of file
+2017-03-21 01:40:49 [ThreadId 40] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/Scrabble.hs] <file descriptor: 77>: hGetLine: end of file
+2017-03-21 01:40:49 [ThreadId 30] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework6/Fibonacci.hs] <file descriptor: 77>: hGetLine: end of file
+2017-03-21 01:40:49 [ThreadId 29] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework6/Fibonacci.hs] <file descriptor: 77>: hGetLine: end of file
+2017-03-21 01:40:49 [ThreadId 35] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/Buffer.hs] <file descriptor: 77>: hGetLine: end of file
+2017-03-21 01:40:49 [ThreadId 37] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/JoinList.hs] <file descriptor: 77>: hGetChar: end of file
+2017-03-21 01:40:49 [ThreadId 33] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/test/Spec.hs] <file descriptor: 77>: hGetChar: end of file
+2017-03-21 01:40:49 [ThreadId 49] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/StringBuffer.hs] <file descriptor: 77>: hGetLine: end of file
+2017-03-21 01:40:49 [ThreadId 53] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/JoinList.hs] <file descriptor: 77>: hGetLine: end of file
+2017-03-21 01:40:49 [ThreadId 31] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework6/Fibonacci.hs] <file descriptor: 77>: hGetChar: end of file
+2017-03-21 01:40:49 [ThreadId 28] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/test/Spec.hs] <file descriptor: 77>: hGetChar: end of file
+2017-03-21 01:40:49 [ThreadId 38] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/Main.hs] <file descriptor: 77>: hGetChar: end of file
+2017-03-21 01:40:49 [ThreadId 50] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/StringBufEditor.hs] <file descriptor: 77>: hGetLine: end of file
+2017-03-21 01:40:49 [ThreadId 32] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework6/Fibonacci.hs] <file descriptor: 77>: hGetChar: end of file
+2017-03-21 01:40:49 [ThreadId 46] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/Buffer.hs] <file descriptor: 77>: hGetLine: end of file
+2017-03-21 01:40:49 [ThreadId 26] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/test/Spec.hs] file load error. '/home/gabluc/Repos/CIS194/test/Spec.hs'
+2017-03-21 01:40:49 [ThreadId 39] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/OldJoinList.hs] file load error. '/home/gabluc/Repos/CIS194/src/Homework7/OldJoinList.hs'
+2017-03-21 01:40:49 [ThreadId 21] ERROR phoityne - load module fail. ["Homework5.StackVM"] <file descriptor: 76>: hPutChar: resource vanished (Broken pipe)
+2017-03-21 01:40:49 [ThreadId 48] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/Tree.hs] file load error. '/home/gabluc/Repos/CIS194/src/Homework7/Tree.hs'
+2017-03-21 01:40:49 [ThreadId 36] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/Editor.hs] file load error. '/home/gabluc/Repos/CIS194/src/Homework7/Editor.hs'
+2017-03-21 01:40:49 [ThreadId 51] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/Sized.hs] file load error. '/home/gabluc/Repos/CIS194/src/Homework7/Sized.hs'
+2017-03-21 01:40:49 [ThreadId 47] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/Main.hs] file load error. '/home/gabluc/Repos/CIS194/src/Homework7/Main.hs'
+2017-03-21 01:40:49 [ThreadId 44] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/Tree.hs] file load error. '/home/gabluc/Repos/CIS194/src/Homework7/Tree.hs'
+2017-03-21 01:40:49 [ThreadId 54] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/Editor.hs] file load error. '/home/gabluc/Repos/CIS194/src/Homework7/Editor.hs'
+2017-03-21 01:40:49 [ThreadId 42] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/StringBufEditor.hs] file load error. '/home/gabluc/Repos/CIS194/src/Homework7/StringBufEditor.hs'
+2017-03-21 01:40:49 [ThreadId 45] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/src/Homework7/OldJoinList.hs] file load error. '/home/gabluc/Repos/CIS194/src/Homework7/OldJoinList.hs'
+2017-03-21 01:40:49 [ThreadId 25] ERROR phoityne - load module fail. ["Homework1.Solution","Homework2.Log","Homework2.LogAnalysis","Homework3.Golf","Homework4.Solution","Homework5.Calc","Homework5.ExprT","Homework5.Parser","Homework5.StackVM","Spec"] <file descriptor: 76>: hPutChar: resource vanished (Broken pipe)
+2017-03-21 01:40:49 [ThreadId 34] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/test/Spec.hs] file load error. '/home/gabluc/Repos/CIS194/test/Spec.hs'
+2017-03-21 01:40:49 [ThreadId 41] ERROR phoityne - load module fail. ["Tree"] <file descriptor: 76>: hPutChar: resource vanished (Broken pipe)
+2017-03-21 01:40:49 [ThreadId 43] ERROR phoityne - load module fail. ["Homework7.Sized"] <file descriptor: 76>: hPutChar: resource vanished (Broken pipe)
+2017-03-21 02:04:17 [ThreadId 9] ERROR phoityne - load file fail.[/home/gabluc/Repos/CIS194/test/Spec.hs] file load error. '/home/gabluc/Repos/CIS194/test/Spec.hs'
+2017-03-21 02:04:17 [ThreadId 9] ERROR phoityne - startup load error. /home/gabluc/Repos/CIS194/test/Spec.hs
+
