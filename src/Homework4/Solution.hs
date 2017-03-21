@@ -34,6 +34,8 @@ fun2' = sum . filter even . takeWhile (>1) . iterate alg
 
 data BTree a = Leaf | Node Integer (BTree a) a (BTree a) deriving (Show, Eq)
 
+-- This helped a lot.
+-- http://www.cmi.ac.in/~madhavan/courses/prog2-2012/lectures/balanced-search-trees-in-haskell.txt
 foldTree :: (Ord a) => [a] -> BTree a
 foldTree = foldr insert Leaf
   where  insert x Leaf  = (Node 0 Leaf x Leaf)
