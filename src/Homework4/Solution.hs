@@ -32,9 +32,9 @@ fun2' = sum . filter even . takeWhile (>1) . iterate alg
 
 --Exercise 2: Folding with trees
 
-data Tree a = Leaf | Node Integer (Tree a) a (Tree a) deriving (Show, Eq)
+data BTree a = Leaf | Node Integer (BTree a) a (BTree a) deriving (Show, Eq)
 
-foldTree :: (Ord a) => [a] -> Tree a
+foldTree :: (Ord a) => [a] -> BTree a
 foldTree = foldr insert Leaf
   where  insert x Leaf  = (Node 0 Leaf x Leaf)
          insert x p@(Node n left a right) 
