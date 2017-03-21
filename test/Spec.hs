@@ -8,4 +8,4 @@ import Homework6.Fibonacci
 import Homework7.JoinList
 import Homework8.Party
 
-main = putStrLn "No tests yet."
+main = putStrLn "Not yet."
