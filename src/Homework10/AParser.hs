@@ -2,7 +2,7 @@
    due Monday, 1 April
 -}
 
-module Homework10.AParser where
+module Homework10.AParser (Parser, runParser, satisfy, char, posInt) where
 
 import           Control.Applicative
 import           Data.Char
@@ -79,8 +79,7 @@ instance Functor Parser where
 instance Applicative Parser where 
     pure a                = Parser (\st -> Just (a,st))
     Parser f <*> Parser g = Parser (\x -> apply (f x) g) 
-      where apply (Just (fn,str)) gn  = first fn <$> (gn str)
-    --where apply a fn = a >>= (\(fun,str) -> fmap (first fun) (fn str))
+      where apply a fn = a >>= (\(fun,str) -> fmap (first fun) (fn str))
 
 
 --Exercise 3
