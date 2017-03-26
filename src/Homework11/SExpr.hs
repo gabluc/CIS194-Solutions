@@ -65,9 +65,9 @@ data SExpr = A Atom
 
 
 parseSExpr :: Parser SExpr
-parseSExpr = let elem = A <$> ((N <$> posInt) <|> (I <$> ident))
+parseSExpr = let elem         = A <$> ((N <$> posInt) <|> (I <$> ident))
                  openingBrace = zeroOrMore (char '(')
                  closingBrace = zeroOrMore (char ')')
-                 atom = spaces *> elem  <* spaces
-                 comb  = Comb <$> (oneOrMore (openingBrace *> atom <* closingBrace))
+                 atom         = spaces *> elem  <* spaces
+                 comb         = Comb <$> (oneOrMore (openingBrace *> atom <* closingBrace))
              in  atom <|> comb
