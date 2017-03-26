@@ -62,3 +62,12 @@ data Atom = N Integer | I Ident
 data SExpr = A Atom
            | Comb [SExpr]
   deriving Show
+
+
+parseSExpr :: Parser SExpr
+parseSExpr = let elem = A <$> ((N <$> posInt) <|> (I <$> ident))
+                 openingBrace = zeroOrMore (char '(')
+                 closingBrace = zeroOrMore (char ')')
+                 atom = spaces *> elem  <* spaces
+                 comb  = Comb <$> (oneOrMore (openingBrace *> atom <* closingBrace))
+             in  atom <|> comb
