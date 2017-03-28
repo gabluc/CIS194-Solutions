@@ -9,4 +9,5 @@ import Homework7.JoinList
 import Homework8.Party
 --import Homework10.AParser
 import Homework11.SExpr
+import Homework12.Risk
 main = putStrLn "Not yet."
