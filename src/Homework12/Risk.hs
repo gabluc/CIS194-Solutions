@@ -91,7 +91,10 @@ score btl
 successProb :: Battlefield -> Rand StdGen Double 
 successProb b = do
   simulations <- sequence $ replicate 1000 $ invade b
-  let prob (x,y) btl
+  let score btl
+        | defenders btl == 0 = True
+        | attackers btl == 1 = False
+      prob (x,y) btl
         | score btl == True = (succ x,y)
         | otherwise         = (x,succ y)
       (a,b) = foldl prob (0,0) simulations
