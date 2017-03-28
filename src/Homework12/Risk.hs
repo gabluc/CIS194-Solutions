@@ -83,11 +83,6 @@ invade b = do
 
 --Exercise 4 
 
-score :: Battlefield -> Bool
-score btl
-  | defenders btl == 0 = True
-  | attackers btl == 1 = False
-
 successProb :: Battlefield -> Rand StdGen Double 
 successProb b = do
   simulations <- sequence $ replicate 1000 $ invade b
