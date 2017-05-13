@@ -14,7 +14,6 @@ import Data.List
 ------------------------------------------------------------
 
 
-
 -- Hint: (It's a hint cloaked as a whole solution.) 
 
 -- To parse one or more occurrences of p, 
